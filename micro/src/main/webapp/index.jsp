@@ -11,7 +11,7 @@
 	window.onload = function()
 	{
 		var request = new XMLHttpRequest();
-		request.open('GET', 'https://masjidabuubaidah2.herokuapp.com/speaker', true);
+		request.open('GET', 'https://masjidabuubaidah2.herokuapp.com/display', true);
 		request.onload = function()
 		{
 			var obj = JSON.parse(this.response);
