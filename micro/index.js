@@ -34,7 +34,7 @@ FROM donation
 `;
 
 
-app.get('/display', (req, res) => {
+app.get('/donation', (req, res) => {
   var micro_username = req.query.username;
 
   console.log("username: " + micro_username);
