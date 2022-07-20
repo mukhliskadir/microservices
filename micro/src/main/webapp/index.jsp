@@ -31,7 +31,8 @@
 			document.getElementById('demo').appendChild(table);
 		};
 		request.send();
-	}
+
+
 </script>
 </body>
 </html>
