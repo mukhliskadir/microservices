@@ -7,10 +7,10 @@ const path = require('path')
 const app = express();
 app.use(cors());
 const pool = new Pool({
-    user: 'hlcietwdsgkwyq',
-    host: 'ec2-3-228-235-79.compute-1.amazonaws.com',
-    database: 'ddrev47ip327l0',
-    password: 'f6078446e3932c85a4d99b3753e1b04295a6add4a27ee4fdc3649c1efb1a04f1',
+    user: 'zaiaryvqbpwwcb',
+    host: 'ec2-176-34-215-248.eu-west-1.compute.amazonaws.com',
+    database: 'delu1t92658u0',
+    password: '731fafeb016f84ea7f87300cbd19a24ba3e96adbaaf92504bc8d945d0302489b',
     port: 5432,
     ssl: {
         rejectUnauthorized: false,
@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 
 const query = `
 SELECT *
-FROM donation
+FROM participant
 `;
 
 
