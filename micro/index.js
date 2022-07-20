@@ -34,7 +34,7 @@ FROM participant
 `;
 
 
-app.get('/donation', (req, res) => {
+app.get('/participant', (req, res) => {
   var micro_username = req.query.username;
 
   console.log("username: " + micro_username);
